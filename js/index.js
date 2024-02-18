@@ -12,7 +12,10 @@
             ticketBg: '#F7F8F8',
             destinationBg: '#F7F8F8',
             locationBg: 'rgba(3, 7, 18, 0.05)',
-            seatBg: 'rgba(29, 209, 0, 0.15)',
+            seatLeftBg: 'rgba(29, 209, 0, 0.15)',
+            available:'rgba(3, 7, 18, 0.50)',
+            driverSeatBg: 'rgba(3, 7, 18, 0.10)',
+            seatBg: '#F7F8F8',
           }
         }
       }
