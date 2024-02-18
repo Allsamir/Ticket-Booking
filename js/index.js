@@ -20,3 +20,15 @@
         }
       }
     }
+
+    const mainSeat = document.getElementsByClassName('main-seat');
+    let remainingSeat = 40; // -1
+    const ticketPrice = 550; // + 550;
+    let limitSeat = 0; // +1
+    let selectedSeat = 0; // +1
+
+    for (const singleSeat of mainSeat) {
+      $(singleSeat).click((e) => {
+        console.log("Hello", e.target);
+      })
+    }
