@@ -95,7 +95,7 @@
     <section class="offer p-4">
       <div>
         <h1 class="font-raleway text-black font-bold text-4xl text-center">Best offers for you</h1>
-        <div class="flex justify-center gap-8 mt-12">
+        <div class="lg:flex flex-col justify-center gap-8 mt-12 space-y-8">
           <div class="bg-couponBg1 flex rounded-3xl font-inter">
             <div class="px-12 pt-14"><span class="text-couponHeading text-4xl font-black">15% OFF</span> <br><span
                 class="text-couponHeading text-lg font-medium block py-3">on your next purchase</span><span
@@ -120,14 +120,14 @@
     </section>
 
     <section class="buy-ticket bg-ticketBg rounded-t-[5.5rem] mt-28" id="ticket">
-      <div class="py-28 rounded-t-[5.5rem] border-solid border-t border-green px-32">
+      <div class="py-28 rounded-t-[5.5rem] border-solid border-t border-green xl:px-32 p-4">
         <div class="ticket-heading text-center font-inter">
           <h1 class="font-raleway text-black text-4xl font-bold">B.H Paribahan</h1>
           <p class="text-couponHeading text-lg font-normal pt-6">Yes, you can run unit tests and view the results
             directly within the app. The integrated <br>testing features allow for a streamlined .</p>
         </div>
 
-        <div class="ticket-price flex bg-white mt-12 rounded-3xl">
+        <div class="ticket-price lg:flex flex-col bg-white mt-12 rounded-3xl">
           <div class="ticket-display p-8 w-3/4">
             <div class="flex justify-between">
               <div class="flex gap-3 justify-center items-center">
@@ -159,7 +159,7 @@
               </div>
             </div>
           </div>
-          <img src="images/info-devider.png" alt="">
+          <img class="lg:visible hidden" src="images/info-devider.png" alt="">
           <div class="price flex flex-col justify-center items-center w-2/12">
             <img src="images/fare.png" alt="">
             <h1 class="pt-6 font-raleway font-bold text-3xl text-black"><span id="price">550</span>Taka</h1>
@@ -191,191 +191,191 @@
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">A</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  A1</div>
-                <div
+                  A1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  A2</div>
+                  A2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  A3</div>
-                <div
+                  A3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  A4</div>
+                  A4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">B</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  B1</div>
-                <div
+                  B1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  B2</div>
+                  B2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  B3</div>
-                <div
+                  B3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  B4</div>
+                  B4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">C</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  C1</div>
-                <div
+                  C1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  C2</div>
+                  C2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  C3</div>
-                <div
+                  C3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  C4</div>
+                  C4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">D</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  D1</div>
-                <div
+                  D1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  D2</div>
+                  D2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  D3</div>
-                <div
+                  D3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  D4</div>
+                  D4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">E</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  E1</div>
-                <div
+                  E1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  E2</div>
+                  E2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  E3</div>
-                <div
+                  E3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  E4</div>
+                  E4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">F</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  F1</div>
-                <div
+                  F1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  F2</div>
+                  F2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  F3</div>
-                <div
+                  F3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  F4</div>
+                  F4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">G</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  G1</div>
-                <div
+                  G1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  G2</div>
+                  G2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  G3</div>
-                <div
+                  G3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  G4</div>
+                  G4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">H</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  H1</div>
-                <div
+                  H1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  H2</div>
+                  H2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  H3</div>
-                <div
+                  H3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  H4</div>
+                  H4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">I</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  I1</div>
-                <div
+                  I1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  I2</div>
+                  I2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  I3</div>
-                <div
+                  I3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  I4</div>
+                  I4</button>
               </div>
             </div>
             <div class="seats grid grid-cols-2 gap-16 font-inter pb-6">
               <div class="grid grid-cols-[auto,1fr,1fr] text-center items-center gap-8">
                 <div class="w-0 text-black">J</div>
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  J1</div>
-                <div
+                  J1</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  J2</div>
+                  J2</button>
               </div>
               <div class="grid grid-cols-2 text-center items-center gap-8">
-                <div
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  J3</div>
-                <div
+                  J3</button>
+                <button type="button"
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
-                  J4</div>
+                  J4</button>
               </div>
             </div>
           </div>
@@ -387,12 +387,15 @@
             </div>
 
             <div class="font-inter calculation p-8 bg-ticketBg w-full rounded-xl mt-8">
-              <div class="show-seat">
+              <div>
                 <div class="flex justify-between w-full border-b border-dashed border-couponP pb-4 mb-4">
                   <span class="text-black font-bold text-base">Seat <span id="seat-count"
                       class="bg-gray-500 p-2 text-white rounded-full text-xs">0</span></span>
                   <span class="text-black font-bold text-base pr-20">Class</span>
                   <span class="text-black font-bold text-base">Price</span>
+                </div>
+                <div id="show-seat">
+
                 </div>
               </div>
               <div class="total-price border-t border-solid border-couponP w-full flex justify-between py-6 text-black font-medium text-base">
@@ -411,28 +414,66 @@
               </div>
             </div>
 
-            <form action="" class="mt-8 w-full">
+            <form action="" class="my-8 w-full" onsubmit="handleSubmit(event)">
               <label for="" class="block text-black text-base font-semibold pb-4">Passenger Name*</label>
-              <input type="text" placeholder="Enter your name"
+              <input id="name" type="text" placeholder="Enter your name"
                 class="input input-bordered w-full bg-white block text-black mb-4" required />
               <label for="" class="block text-black text-base font-semibold pb-4">Phone Number*</label>
-              <input type="text" placeholder="Enter your phone number"
+              <input type="number" placeholder="Enter your phone number" id="number"
                 class="input input-bordered w-full bg-white block text-black mb-4" required />
               <label for="" class="block text-black text-base font-semibold pb-4">Email ID</label>
-              <input type="text" placeholder="Enter your email id"
+              <input type="email" placeholder="Enter your email id" id="email"
                 class="input input-bordered w-full bg-white block text-black" />
               <button id="form-submit" type="submit"
                 class="bg-gray-500 rounded-2xl text-white mt-4 w-full font-raleway font-extrabold text-xl py-6"
                 disabled>Next</button>
             </form>
+            <a href="#" class="underline">Terms and Conditions</a> <a href="#" class="pl-12 underline">Cancellation Policy</a>
           </div>
         </div>
       </div>
     </section>
 
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box text-center font-inter bg-white">
+    <img src="images/success.png" alt="" class="block mx-auto">
+    <h3 class="font-bold text-lg py-4 text-success">Success</h3>
+    <p class="py-4 text-black font-medium text-base">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you. <br><span class="font-light mt-4 block">Shortly you will find a confirmation in your email.</span></p>
+    <div class="">
+      <form method="dialog" class="text-center">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn w-72 rounded-full bg-success text-white border-none mt-4">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
 
   </main>
-  <footer></footer>
+
+
+  <footer class="footer p-10 bg-black text-base-content font-inter">
+  <nav>
+    <h6 class="text-3xl font-bold text-white">B.H-Ticket</h6>
+    <p>B.H-Ticket is a digital platform to make your daily commuting better.</p> 
+  </nav> 
+  <nav>
+    <h6 class="text-white">Download our app</h6> 
+    <a class="link link-hover"><img src="images/playstore.png" alt=""></a>
+  </nav>
+</footer> 
+<div class="border-t-2 border-dashed border-slate-300 w-full"></div>
+<footer class="footer px-10 py-4 border-t bg-black text-base-content border-base-300 font-inter">
+  <aside class="items-center grid-flow-col">
+    <p>@all rights reserved, P-Ticket services limited.2024</p>
+  </aside> 
+  <nav class="md:place-self-center md:justify-self-end">
+    <div class="grid grid-flow-col gap-4 font-bold">
+      <a href="#" class="text-white">Terms & condition</a>
+      <a href="#" class="text-white">Return & refund policy</a>
+      <a href="#" class="text-white">Privacy policy</a>
+    </div>
+  </nav>
+</footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
