@@ -376,7 +376,7 @@
                 <div
                   class="bg-seatBg px-12 py-4 rounded-xl text-black main-seat hover:bg-green hover:text-white cursor-pointer">
                   J4</div>
-              </div> cursor-pointer
+              </div>
             </div>
           </div>
           <div class="ticket-information w-2/5">
@@ -387,11 +387,13 @@
             </div>
 
             <div class="font-inter calculation p-8 bg-ticketBg w-full rounded-xl mt-8">
-              <div class="border-b border-dashed border-couponP w-full flex justify-between pb-6">
-                <span class="text-black font-normal text-base">Seat <span id="seat-count"
-                    class="bg-gray-500 p-2 text-white rounded-full text-xs">0</span></span>
-                <span class="text-black font-normal text-base">Class</span>
-                <span class="text-black font-normal text-base">Price</span>
+              <div class="show-seat">
+                <div class="flex justify-between w-full border-b border-dashed border-couponP pb-4 mb-4">
+                  <span class="text-black font-bold text-base">Seat <span id="seat-count"
+                      class="bg-gray-500 p-2 text-white rounded-full text-xs">0</span></span>
+                  <span class="text-black font-bold text-base pr-20">Class</span>
+                  <span class="text-black font-bold text-base">Price</span>
+                </div>
               </div>
               <div class="total-price border-t border-solid border-couponP w-full flex justify-between py-6 text-black font-medium text-base">
                 <span>Total Price</span>
